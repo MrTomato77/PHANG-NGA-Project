@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "score": {
+      "type": "integer",
+      "max": 10,
+      "min": 0
+    },
+    "Date": {
+      "type": "date"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "name_tour": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "id_tour": {
+      "type": "string"
+    }
+  }
+}
